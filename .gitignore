@@ -1,0 +1,25 @@
+# Compiled binaries
+*.exe
+*.out
+
+# Object and dependency files
+*.o
+*.obj
+*.d
+
+# Build directories
+cmake-build-*/
+Debug/
+build/
+
+# Crash dumps
+*.stackdump
+
+# IDE metadata
+.idea/
+.project
+.cproject
+.settings/
+
+# Local editor files
+.vscode/*.user.json

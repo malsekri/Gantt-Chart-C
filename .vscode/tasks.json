@@ -1,0 +1,30 @@
+{
+  "tasks": [
+    {
+      "type": "process",
+      "label": "Build Gantt-Chart-C",
+      "command": "gcc",
+      "args": [
+        "-fdiagnostics-color=always",
+        "-g",
+        "${workspaceFolder}\\src\\main.c",
+        "${workspaceFolder}\\src\\action.c",
+        "${workspaceFolder}\\src\\example.c",
+        "${workspaceFolder}\\src\\input.c",
+        "${workspaceFolder}\\src\\print.c",
+        "-o",
+        "${workspaceFolder}\\Gantt-Chart-C.exe"
+      ],
+      "options": {
+        "cwd": "${workspaceFolder}"
+      },
+      "problemMatcher": ["$gcc"],
+      "group": {
+        "kind": "build",
+        "isDefault": true
+      },
+      "detail": "Build all project source files with GCC."
+    }
+  ],
+  "version": "2.0.0"
+}
